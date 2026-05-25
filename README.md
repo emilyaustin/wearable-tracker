@@ -18,31 +18,7 @@ Status levels (viridis scale, least → most transparent):
 | Report published | Company publishes aggregate stats on government data requests |
 | Process page only | Intake form for law enforcement exists; no aggregate stats |
 | No disclosure | No report and no process page found |
-| CN jurisdiction | Chinese jurisdiction — government disclosure is a legal obligation, not a choice |
 
-## Running locally
-
-```bash
-# Serve from the project root (required — fetch() won't work from file://)
-python3 -m http.server 8080
-# then open http://localhost:8080
-```
-
-## Deploying to GitHub Pages
-
-1. Push this repo to GitHub (must be **public** for free-tier HTTPS).
-2. Go to **Settings → Pages** and set source to **GitHub Actions**.
-3. Go to **Settings → Actions → General** and set workflow permissions to **Read and write**.
-4. Trigger the workflow manually (**Actions → Monitor Transparency Reports → Run workflow**) to establish URL baselines.
-5. After the first run, the site is live at `https://<username>.github.io/<repo>/`.
-
-### Optional: custom subdomain
-
-1. Edit `.github/workflows/monitor.yml` and uncomment the `cname:` line, replacing the placeholder with your subdomain (e.g., `wearable.yourdomain.com`).
-2. Add a `CNAME` file to the repo root containing only your subdomain.
-3. In your DNS provider, add a CNAME record: `wearable` → `<username>.github.io`.
-4. In GitHub **Settings → Pages → Custom domain**, enter your subdomain and save.
-5. Check **Enforce HTTPS** once DNS propagates (10 min – 48 h). GitHub provisions a Let's Encrypt cert automatically.
 
 ## Updating company data
 
