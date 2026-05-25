@@ -300,11 +300,40 @@ footer a:hover { color: var(--link-hover); }
 /* ── Responsive ── */
 
 @media (max-width: 700px) {
-  header h1 { font-size: 1.2rem; }
+  html, body { overflow-x: hidden; }
+
+  .page {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 1.5rem 1rem 3rem;
+    overflow-x: hidden;
+  }
+
+  header h1 { font-size: 0.9rem; overflow-wrap: anywhere; }
+  .summary-count { font-size: 1.6rem; }
+  .summary-label { font-size: 0.9rem; word-break: break-word; }
+  .context { display: none; }
+
+  .summary { flex-wrap: wrap; gap: 0.5rem; padding: 1rem; }
   .summary-count { font-size: 1.8rem; }
   .summary-sub { display: none; }
-  td, th { padding: 0.4rem 0.4rem; }
-  .notes-cell { display: none; }
-  col.col-category { width: 0; }
-  td.category { display: none; }
+  .summary-label { min-width: 0; }
+
+  .table-wrap { min-width: 0; }
+
+  /* Switch to auto layout so remaining columns size to content */
+  table { table-layout: auto; width: 100%; }
+  td, th { padding: 0.4rem 0.5rem; }
+  td.company-name { white-space: normal; }
+
+  /* Show only: Company (1), Status (3), Link (7) */
+  thead th:nth-child(2),
+  thead th:nth-child(4),
+  thead th:nth-child(5),
+  thead th:nth-child(6),
+  td.category,
+  td.jurisdiction,
+  td.date-cell,
+  td.notes-cell { display: none; }
 }
