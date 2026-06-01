@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'none'; connect-src 'self'; font-src 'none'; object-src 'none'; frame-ancestors 'none';" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wearable Device Government Data Transparency Tracker</title>
+  <meta name="description" content="Tracking which wearable health and fitness device companies publish transparency reports on government data requests." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+
+    <header>
+      <h1>Wearable Device Government Data Transparency Tracker</h1>
+      <p class="subtitle">
+        Last updated: <strong id="last-updated">loading…</strong> 
+      </p>
+      <p class="context">
+        In 2026, security journalist Zack Whitaker <a href="https://this.weekinsecurity.com/oura-says-it-gets-government-demands-for-user-data-will-it-share-how-many/" target="_blank" rel="noopener noreferrer">reported in This Week in Security</a>
+        that Oura confirmed it receives government demands for user health data but won't say how many it gets or how often it complies.
+        Big tech companies have published this kind of data since the 2013 Snowden revelations, and infrastructure companies like
+        <a href="https://www.cloudflare.com/transparency/" target="_blank" rel="noopener noreferrer">Cloudflare</a>,
+        <a href="https://github.blog/tag/github-transparency-report/" target="_blank" rel="noopener noreferrer">GitHub</a>, and
+        <a href="https://redditinc.com/policies/transparency" target="_blank" rel="noopener noreferrer">Reddit</a>
+        have followed, treating transparency as a trust signal for their users.<br><br>
+
+        The smart home and IoT world has the same transparency gap as wearables. A
+        <a href="https://techcrunch.com/2019/12/11/smart-home-tech-user-data-government/" target="_blank" rel="noopener noreferrer">2019 TechCrunch investigation</a>
+        found most device makers either refused to answer questions about government requests or simply had no report.
+        Such hardware companies collecting intimate health data have largely never faced the same pressure that pushed software platforms to disclose.
+      </p>
+    </header>
+
+    <div class="summary" role="region" aria-label="Summary">
+      <span class="summary-count" id="report-count">…</span>
+      <span class="summary-label">companies publish a government data transparency report <span class="summary-date">as of <span id="summary-date">…</span></span></span>
+      <span class="summary-sub">Checked monthly</span>
+    </div>
+
+    <div class="filters" id="filters" role="group" aria-label="Filter by category"></div>
+
+    <div class="table-wrap">
+      <table aria-label="Wearable company transparency status">
+        <colgroup>
+          <col class="col-company" />
+          <col class="col-category" />
+          <col class="col-status" />
+          <col class="col-juris" />
+          <col class="col-checked" />
+          <col class="col-notes" />
+          <col class="col-link" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">Company</th>
+            <th scope="col">Category</th>
+            <th scope="col">Status</th>
+            <th scope="col">HQ</th>
+            <th scope="col">Checked</th>
+            <th scope="col">Notes</th>
+            <th scope="col">Link</th>
+          </tr>
+        </thead>
+        <tbody id="company-tbody">
+          <tr>
+            <td colspan="7" style="text-align:center;color:var(--text-muted);padding:2rem">
+              Loading…
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer>
+      <p>
+        <strong>Methodology:</strong>
+        Status is determined by whether the company publishes aggregate statistics on government/law enforcement requests for user data (volume, compliance rate, request type). A &ldquo;process page&rdquo; listing how to submit a request does not qualify. Companies are re-checked monthly; <em>Page Changed</em> reflects the most recent date the monitored URL&rsquo;s content hash changed.
+      </p>
+      <p>
+        <strong>Sources:</strong>
+        <a href="https://this.weekinsecurity.com/oura-says-it-gets-government-demands-for-user-data-will-it-share-how-many/" target="_blank" rel="noopener noreferrer">This Week in Security (2026)</a> &middot;
+        <a href="https://www.nature.com/articles/s41746-025-01757-1" target="_blank" rel="noopener noreferrer">npj Digital Medicine — Privacy in consumer wearables (2025)</a> &middot;
+        <a href="https://rankingdigitalrights.org/" target="_blank" rel="noopener noreferrer">Ranking Digital Rights</a>
+      </p>
+      <p>* EU-headquartered — GDPR covers commercial data use but has not generated the same government-request transparency norm as post-Snowden pressure did in the US.</p>
+      <p>Made by <a href="https://whyli.me">mle</a></p>
+    </footer>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
