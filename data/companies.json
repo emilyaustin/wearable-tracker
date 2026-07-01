@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01",
+  "last_updated": "2026-07-01",
   "companies": [
     {
       "name": "Apple",
@@ -12,7 +12,7 @@
       "jurisdiction": "US",
       "jurisdiction_group": "US",
       "monitor_url": "https://www.apple.com/legal/transparency/",
-      "last_checked": "2026-06-01",
+      "last_checked": "2026-07-01",
       "last_changed": "2025-06-04",
       "content_hash": "30668cc7e5bf96bd8b44aac0c96954dcc77a53f76231e2626e04978d1743bbea"
     },
@@ -27,9 +27,9 @@
       "jurisdiction": "US",
       "jurisdiction_group": "US",
       "monitor_url": "https://transparencyreport.google.com/user-data/overview",
-      "last_checked": "2026-06-01",
-      "last_changed": "2026-06-01",
-      "content_hash": "2acafe5d629daa28789d2f985bb65db52b89c22f59daa30a8b06c530619e13c2"
+      "last_checked": "2026-07-01",
+      "last_changed": "2026-07-01",
+      "content_hash": "aeffa0665860dcb5c59a2d8eebbd2f60f5c4090373c59cb5fc503a4d24990142"
     },
     {
       "name": "Garmin",
@@ -42,9 +42,9 @@
       "jurisdiction": "US",
       "jurisdiction_group": "US",
       "monitor_url": "https://www.garmin.com/en-US/forms/lawenforcement/",
-      "last_checked": "2026-06-01",
-      "last_changed": "2026-06-01",
-      "content_hash": "14f14ca9be1efe55ee154bf5f073c117abe815bff4aa0b9bf7af40ac3df031d5"
+      "last_checked": "2026-07-01",
+      "last_changed": "2026-07-01",
+      "content_hash": "f4bcd2f63e45fd1a1fab0cb35ee1339c3ed62e55e5b91aa851902c2608433ced"
     },
     {
       "name": "Oura",
@@ -57,9 +57,9 @@
       "jurisdiction": "FI",
       "jurisdiction_group": "EU",
       "monitor_url": "https://ouraring.com/privacy-policy",
-      "last_checked": "2026-06-01",
+      "last_checked": "2026-07-01",
       "last_changed": null,
-      "content_hash": "6f40fb0c650a154044655b58b278f91fd1683b8e7548ce90641fe98d842eb210"
+      "content_hash": "74429f773c6caf2b8f28cb90254f35aed58f5801544dada5d92464003481367e"
     },
     {
       "name": "WHOOP",
@@ -72,9 +72,9 @@
       "jurisdiction": "US",
       "jurisdiction_group": "US",
       "monitor_url": "https://www.whoop.com/us/en/whoop-privacy-policies/",
-      "last_checked": "2026-06-01",
-      "last_changed": "2026-06-01",
-      "content_hash": "399af5a447176f7ed5d176edb0eac4f0d085eaac97bc6fb47a936cf7034dba6b"
+      "last_checked": "2026-07-01",
+      "last_changed": "2026-07-01",
+      "content_hash": "5a839b65b02e1523c31f527257d781bda759b754295f41806810809a28cb01f5"
     },
     {
       "name": "Samsung",
@@ -87,9 +87,9 @@
       "jurisdiction": "KR",
       "jurisdiction_group": "OTHER",
       "monitor_url": "https://www.samsung.com/us/about-us/digital-responsibility/privacy/",
-      "last_checked": "2026-06-01",
-      "last_changed": "2026-06-01",
-      "content_hash": "1cc2a2e07397fb0838e5e23d56c60fffaa8243b6efd3e3e3e74ac39d99d9f26c"
+      "last_checked": "2026-07-01",
+      "last_changed": "2026-07-01",
+      "content_hash": "61cfe4949d086c778c9b539d2ce6b71aea4f000bfb7fa0098046d8039ab5ba8d"
     },
     {
       "name": "Polar",
@@ -102,9 +102,9 @@
       "jurisdiction": "FI",
       "jurisdiction_group": "EU",
       "monitor_url": "https://www.polar.com/en/legal/privacy-policy",
-      "last_checked": "2026-06-01",
-      "last_changed": "2026-06-01",
-      "content_hash": "4e3a48920d81a477bcc9def507dfe6b2f2b5944864efab4f14c88ad58e3e8729"
+      "last_checked": "2026-07-01",
+      "last_changed": "2026-07-01",
+      "content_hash": "9eb0fc64ef90973eebbe9265707c56293a6080e67308a2c96afbf0be6b7b60eb"
     },
     {
       "name": "Coros",
@@ -117,7 +117,7 @@
       "jurisdiction": "US",
       "jurisdiction_group": "US",
       "monitor_url": "https://www.coros.com/legal/privacy-policy",
-      "last_checked": "2026-06-01",
+      "last_checked": "2026-07-01",
       "last_changed": null,
       "content_hash": "8c94a679a9757c51132acf2681342d7b93fb7628f0af32e1a998553403916960"
     },
@@ -132,9 +132,9 @@
       "jurisdiction": "FI",
       "jurisdiction_group": "EU",
       "monitor_url": "https://www.suunto.com/en-us/Privacy-Policy/",
-      "last_checked": "2026-06-01",
+      "last_checked": "2026-07-01",
       "last_changed": null,
-      "content_hash": "1abc4e7bfc8d83e92e0b99383035ebbfa64b57509d007b4769045da507f6202c"
+      "content_hash": "4c762daa002a0720ad4045663312c16cd54fe62b02603edb19b0e11f6f83b951"
     },
     {
       "name": "Ultrahuman",
@@ -147,7 +147,7 @@
       "jurisdiction": "IN",
       "jurisdiction_group": "OTHER",
       "monitor_url": "https://www.ultrahuman.com/privacy-policy",
-      "last_checked": "2026-06-01",
+      "last_checked": "2026-07-01",
       "last_changed": null,
       "content_hash": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2"
     },
@@ -162,9 +162,9 @@
       "jurisdiction": "NL",
       "jurisdiction_group": "EU",
       "monitor_url": "https://us.amazfit.com/pages/privacy-policy",
-      "last_checked": "2026-06-01",
-      "last_changed": "2026-06-01",
-      "content_hash": "0cad6a542143eb5255d73b51b01c7913a3695d914698940c54908c599d5068d6"
+      "last_checked": "2026-07-01",
+      "last_changed": "2026-07-01",
+      "content_hash": "4901ed958aca655a78a65562142f2ae2f7611706e5030fa95135a4eadcc9a784"
     },
     {
       "name": "Withings",
@@ -177,9 +177,9 @@
       "jurisdiction": "FR",
       "jurisdiction_group": "EU",
       "monitor_url": "https://www.withings.com/us/en/legal/privacy-policy",
-      "last_checked": "2026-06-01",
-      "last_changed": "2026-06-01",
-      "content_hash": "2799adb536879611c94726fc87113331ba814db42b301fb34ebcbef15cad98be"
+      "last_checked": "2026-07-01",
+      "last_changed": "2026-07-01",
+      "content_hash": "bb9f65266283620635db07317fe3f063cd87031b1b9f8602a2f47b9be62dbd59"
     }
   ]
 }
